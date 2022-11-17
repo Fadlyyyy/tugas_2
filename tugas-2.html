@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <link rel="stylesheet" href="AnimasiGambar.css">
+    <link rel="stylesheet" href="JamDigital.css">
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <td colspan="2">Fadly Cv</td>
+                <script type="txt/css" src="AnimasiGambar.js"></script>
+                <td><a href="#">About</a></td>
+                <td><a href="#">Skill</a></td>
+                <td><a href="#">Experience</a></td>
+                <td><a href="#">Education</a></td>
+                <td><a href="#">Portfolio</a></td>
+                <td><a href="#">Contact</a></td>
+                <br>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2"><div class="img"></div></td>
+                <td colspan="6" rowspan="3">
+                    <h1 id="webdev"> Web developer</h1>
+                    <h1>Fardli</h1>
+                    <h2>Description</h2>
+                    <p>Hi, I'm Fardli, a Web Developer from Indonesia. I really enjoy learning languages and frameworks like React and React Native, as well as work in WordPress. I also enjoy wireframing, ui, ux, and design in general.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                    <script type="text/javascript" src="JamDigital.js"></script>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="clickCounterLike()" type="button">Like👍</button>
+                    <div id="resultLike"></div>
+                </td>
+                <td><button onclick="clickCounterUnlike()" type="button">Dislike 👎</button>
+                    <div id="resultUnlike"></div></td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="Counter.js"></script>
+</html>

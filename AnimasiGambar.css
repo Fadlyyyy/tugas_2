@@ -1,0 +1,10 @@
+.img {
+    width: 119px;
+    height: 120px;
+    background-size: 364px 362px;
+    background: url(img/revisi.png);
+}
+
+#about {
+    background: green;
+}
