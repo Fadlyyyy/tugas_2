@@ -3,7 +3,7 @@ var y = 0;
 
 setInterval(function(){
 
-  x -= 119;
+  x -= 119
   if (x == -364){
     x = 0;
     y -= 120;
@@ -14,9 +14,9 @@ setInterval(function(){
     {
       y = 0;
     }
-}
+  }
 
-document.getElementById('stiker').style.backgroundPositionX = String(x) + "px";
-document.getElementById('stiker').style.backgroundPositionY = String(y) + "px";
+  document.getElementById('stiker').style.backgroundPositionX = String(x) + "px";
+  document.getElementById('stiker').style.backgroundPositionY = String(y) + "px";
 
-}, 3000 );
+  }, 3000 );
